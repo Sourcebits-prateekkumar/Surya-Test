@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231C0ED322044A2900EBE0E8 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C0ED222044A2900EBE0E8 /* UserListViewModel.swift */; };
+		231C0ED622044C5E00EBE0E8 /* UserListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C0ED522044C5E00EBE0E8 /* UserListAPI.swift */; };
+		231C0ED82204525100EBE0E8 /* UserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C0ED72204525100EBE0E8 /* UserListService.swift */; };
+		23AA297C2201B6FA0039CD1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AA297B2201B6FA0039CD1B /* AppDelegate.swift */; };
+		23AA297E2201B6FA0039CD1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AA297D2201B6FA0039CD1B /* ViewController.swift */; };
+		23AA29812201B6FA0039CD1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA297F2201B6FA0039CD1B /* Main.storyboard */; };
+		23AA29832201B6FE0039CD1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AA29822201B6FE0039CD1B /* Assets.xcassets */; };
+		23AA29862201B6FE0039CD1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AA29842201B6FE0039CD1B /* LaunchScreen.storyboard */; };
+		23AA29912201B6FE0039CD1B /* Surya_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AA29902201B6FE0039CD1B /* Surya_TestTests.swift */; };
+		23C3AE7122030BDC006CD4DB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3AE7022030BDC006CD4DB /* ViewModel.swift */; };
+		23C3AE762203136E006CD4DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3AE752203136E006CD4DB /* User.swift */; };
+		23C3AE7A22032CF0006CD4DB /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3AE7922032CF0006CD4DB /* UserListViewController.swift */; };
+		23C3AE7D22032D49006CD4DB /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3AE7C22032D49006CD4DB /* UserTableViewCell.swift */; };
+		23C3AE7F2203347E006CD4DB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3AE7E2203347E006CD4DB /* Extension.swift */; };
+		615D59610D1D359676B1ECEC /* Pods_Surya_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27719744B670533D36B910B6 /* Pods_Surya_TestTests.framework */; };
+		8858E8223AEC49B86C64C0D8 /* Pods_Surya_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D8064BD5790A8AB2E28846 /* Pods_Surya_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23AA298D2201B6FE0039CD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23AA29702201B6F90039CD1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23AA29772201B6FA0039CD1B;
+			remoteInfo = "Surya-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19F16C17491254A74B722ABC /* Pods-Surya-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Surya-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Surya-Test/Pods-Surya-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		1EA02C395DFA80E52090B246 /* Pods-Surya-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Surya-TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Surya-TestTests/Pods-Surya-TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		231C0ED222044A2900EBE0E8 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		231C0ED522044C5E00EBE0E8 /* UserListAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListAPI.swift; sourceTree = "<group>"; };
+		231C0ED72204525100EBE0E8 /* UserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListService.swift; sourceTree = "<group>"; };
+		23AA29782201B6FA0039CD1B /* Surya-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Surya-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AA297B2201B6FA0039CD1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23AA297D2201B6FA0039CD1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23AA29802201B6FA0039CD1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23AA29822201B6FE0039CD1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23AA29852201B6FE0039CD1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23AA29872201B6FE0039CD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AA298C2201B6FE0039CD1B /* Surya-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Surya-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AA29902201B6FE0039CD1B /* Surya_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surya_TestTests.swift; sourceTree = "<group>"; };
+		23AA29922201B6FE0039CD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C3AE7022030BDC006CD4DB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		23C3AE752203136E006CD4DB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		23C3AE7922032CF0006CD4DB /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		23C3AE7C22032D49006CD4DB /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		23C3AE7E2203347E006CD4DB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		27719744B670533D36B910B6 /* Pods_Surya_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Surya_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		673FBB7ACDC5B6690A0FA276 /* Pods-Surya-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Surya-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Surya-Test/Pods-Surya-Test.release.xcconfig"; sourceTree = "<group>"; };
+		67BE1BE35C7148C297390512 /* Pods-Surya-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Surya-TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Surya-TestTests/Pods-Surya-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2D8064BD5790A8AB2E28846 /* Pods_Surya_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Surya_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23AA29752201B6FA0039CD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8858E8223AEC49B86C64C0D8 /* Pods_Surya_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AA29892201B6FE0039CD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615D59610D1D359676B1ECEC /* Pods_Surya_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132C88FA6B074F293DDC3087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D8064BD5790A8AB2E28846 /* Pods_Surya_Test.framework */,
+				27719744B670533D36B910B6 /* Pods_Surya_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		231C0ED422044C1100EBE0E8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				231C0ED522044C5E00EBE0E8 /* UserListAPI.swift */,
+				231C0ED72204525100EBE0E8 /* UserListService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		23AA296F2201B6F90039CD1B = {
+			isa = PBXGroup;
+			children = (
+				23AA297A2201B6FA0039CD1B /* Surya-Test */,
+				23AA298F2201B6FE0039CD1B /* Surya-TestTests */,
+				23AA29792201B6FA0039CD1B /* Products */,
+				A27E0FB41DF87D742D309EB1 /* Pods */,
+				132C88FA6B074F293DDC3087 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23AA29792201B6FA0039CD1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23AA29782201B6FA0039CD1B /* Surya-Test.app */,
+				23AA298C2201B6FE0039CD1B /* Surya-TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23AA297A2201B6FA0039CD1B /* Surya-Test */ = {
+			isa = PBXGroup;
+			children = (
+				23C3AE7222031318006CD4DB /* ViewController */,
+				23C3AE7322031342006CD4DB /* ViewModel */,
+				23C3AE7422031353006CD4DB /* Model */,
+				23C3AE7B22032D0F006CD4DB /* View */,
+				231C0ED422044C1100EBE0E8 /* Network */,
+				23AA297B2201B6FA0039CD1B /* AppDelegate.swift */,
+				23AA297F2201B6FA0039CD1B /* Main.storyboard */,
+				23AA29822201B6FE0039CD1B /* Assets.xcassets */,
+				23AA29842201B6FE0039CD1B /* LaunchScreen.storyboard */,
+				23AA29872201B6FE0039CD1B /* Info.plist */,
+				23C3AE7E2203347E006CD4DB /* Extension.swift */,
+			);
+			path = "Surya-Test";
+			sourceTree = "<group>";
+		};
+		23AA298F2201B6FE0039CD1B /* Surya-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				23AA29902201B6FE0039CD1B /* Surya_TestTests.swift */,
+				23AA29922201B6FE0039CD1B /* Info.plist */,
+			);
+			path = "Surya-TestTests";
+			sourceTree = "<group>";
+		};
+		23C3AE7222031318006CD4DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				23AA297D2201B6FA0039CD1B /* ViewController.swift */,
+				23C3AE7922032CF0006CD4DB /* UserListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		23C3AE7322031342006CD4DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				23C3AE7022030BDC006CD4DB /* ViewModel.swift */,
+				231C0ED222044A2900EBE0E8 /* UserListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		23C3AE7422031353006CD4DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23C3AE752203136E006CD4DB /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23C3AE7B22032D0F006CD4DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23C3AE7C22032D49006CD4DB /* UserTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A27E0FB41DF87D742D309EB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F16C17491254A74B722ABC /* Pods-Surya-Test.debug.xcconfig */,
+				673FBB7ACDC5B6690A0FA276 /* Pods-Surya-Test.release.xcconfig */,
+				67BE1BE35C7148C297390512 /* Pods-Surya-TestTests.debug.xcconfig */,
+				1EA02C395DFA80E52090B246 /* Pods-Surya-TestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23AA29772201B6FA0039CD1B /* Surya-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AA29952201B6FE0039CD1B /* Build configuration list for PBXNativeTarget "Surya-Test" */;
+			buildPhases = (
+				DBA3326DEDD160AF2E879432 /* [CP] Check Pods Manifest.lock */,
+				23AA29742201B6FA0039CD1B /* Sources */,
+				23AA29752201B6FA0039CD1B /* Frameworks */,
+				23AA29762201B6FA0039CD1B /* Resources */,
+				30ADFB540AC95CE088178FB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Surya-Test";
+			productName = "Surya-Test";
+			productReference = 23AA29782201B6FA0039CD1B /* Surya-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23AA298B2201B6FE0039CD1B /* Surya-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AA29982201B6FE0039CD1B /* Build configuration list for PBXNativeTarget "Surya-TestTests" */;
+			buildPhases = (
+				C90106F5B813A0F407F75458 /* [CP] Check Pods Manifest.lock */,
+				23AA29882201B6FE0039CD1B /* Sources */,
+				23AA29892201B6FE0039CD1B /* Frameworks */,
+				23AA298A2201B6FE0039CD1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23AA298E2201B6FE0039CD1B /* PBXTargetDependency */,
+			);
+			name = "Surya-TestTests";
+			productName = "Surya-TestTests";
+			productReference = 23AA298C2201B6FE0039CD1B /* Surya-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23AA29702201B6F90039CD1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sourcebits;
+				TargetAttributes = {
+					23AA29772201B6FA0039CD1B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					23AA298B2201B6FE0039CD1B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 23AA29772201B6FA0039CD1B;
+					};
+				};
+			};
+			buildConfigurationList = 23AA29732201B6F90039CD1B /* Build configuration list for PBXProject "Surya-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23AA296F2201B6F90039CD1B;
+			productRefGroup = 23AA29792201B6FA0039CD1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23AA29772201B6FA0039CD1B /* Surya-Test */,
+				23AA298B2201B6FE0039CD1B /* Surya-TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23AA29762201B6FA0039CD1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AA29862201B6FE0039CD1B /* LaunchScreen.storyboard in Resources */,
+				23AA29832201B6FE0039CD1B /* Assets.xcassets in Resources */,
+				23AA29812201B6FA0039CD1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AA298A2201B6FE0039CD1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30ADFB540AC95CE088178FB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Surya-Test/Pods-Surya-Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Surya-Test/Pods-Surya-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90106F5B813A0F407F75458 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Surya-TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA3326DEDD160AF2E879432 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Surya-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23AA29742201B6FA0039CD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C3AE762203136E006CD4DB /* User.swift in Sources */,
+				23C3AE7D22032D49006CD4DB /* UserTableViewCell.swift in Sources */,
+				23AA297E2201B6FA0039CD1B /* ViewController.swift in Sources */,
+				231C0ED322044A2900EBE0E8 /* UserListViewModel.swift in Sources */,
+				231C0ED82204525100EBE0E8 /* UserListService.swift in Sources */,
+				231C0ED622044C5E00EBE0E8 /* UserListAPI.swift in Sources */,
+				23C3AE7122030BDC006CD4DB /* ViewModel.swift in Sources */,
+				23AA297C2201B6FA0039CD1B /* AppDelegate.swift in Sources */,
+				23C3AE7A22032CF0006CD4DB /* UserListViewController.swift in Sources */,
+				23C3AE7F2203347E006CD4DB /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23AA29882201B6FE0039CD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AA29912201B6FE0039CD1B /* Surya_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23AA298E2201B6FE0039CD1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23AA29772201B6FA0039CD1B /* Surya-Test */;
+			targetProxy = 23AA298D2201B6FE0039CD1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23AA297F2201B6FA0039CD1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23AA29802201B6FA0039CD1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23AA29842201B6FE0039CD1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23AA29852201B6FE0039CD1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23AA29932201B6FE0039CD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23AA29942201B6FE0039CD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23AA29962201B6FE0039CD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F16C17491254A74B722ABC /* Pods-Surya-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88S8FY3VVX;
+				INFOPLIST_FILE = "Surya-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sourcebits.Surya-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23AA29972201B6FE0039CD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673FBB7ACDC5B6690A0FA276 /* Pods-Surya-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88S8FY3VVX;
+				INFOPLIST_FILE = "Surya-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sourcebits.Surya-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23AA29992201B6FE0039CD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BE1BE35C7148C297390512 /* Pods-Surya-TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88S8FY3VVX;
+				INFOPLIST_FILE = "Surya-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sourcebits.Surya-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Surya-Test.app/Surya-Test";
+			};
+			name = Debug;
+		};
+		23AA299A2201B6FE0039CD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA02C395DFA80E52090B246 /* Pods-Surya-TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88S8FY3VVX;
+				INFOPLIST_FILE = "Surya-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sourcebits.Surya-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Surya-Test.app/Surya-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23AA29732201B6F90039CD1B /* Build configuration list for PBXProject "Surya-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AA29932201B6FE0039CD1B /* Debug */,
+				23AA29942201B6FE0039CD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23AA29952201B6FE0039CD1B /* Build configuration list for PBXNativeTarget "Surya-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AA29962201B6FE0039CD1B /* Debug */,
+				23AA29972201B6FE0039CD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23AA29982201B6FE0039CD1B /* Build configuration list for PBXNativeTarget "Surya-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AA29992201B6FE0039CD1B /* Debug */,
+				23AA299A2201B6FE0039CD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23AA29702201B6F90039CD1B /* Project object */;
+}
